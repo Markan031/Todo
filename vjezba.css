@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+#root{
+    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+
+#container{
+    background-color: #804fb3;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+#con-input{
+    width:auto;
+    height:auto;
+    padding: 10px;
+}
+input{
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 300px;
+    font-size:15pt;
+    text-align: center;
+    border-radius: 5px;
+    overflow: scroll;
+}
+#add{
+    height:50px;
+    width:95px;
+    cursor: pointer;
+    font-size:15pt;
+    text-align:center;
+    outline:none;
+    border-radius: 5px;
+    border:1px solid rgb(43, 82, 167);;
+    background-color: rgb(43, 82, 167);
+    color:white;
+}
+#add:hover{
+    transition: 0.25s;
+    background-color: white;
+    color:rgb(43, 82, 167);
+}
+#con-todos{
+    width:auto;
+    height:auto;
+    padding-left:10px;
+}
+.todo{
+    width: 300px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+p{
+    font-size: 15pt;
+    padding: 10px;   
+}
+.TodoHolder{
+    margin-top:15px;
+    width:auto;
+    height:auto;
+    display:flex;
+}
+.btnHolder{
+    display:block;
+  
+    
+}
+.trashBtn{
+    width:50px;
+    height:50px;
+    font-size: 18pt;
+    background-color: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.completeBtn{
+    width:50px;
+    height:50px;
+    font-size: 16pt;
+    border: none;
+    outline: none;
+    background-color: #009900;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.trashBtn:hover{
+    background-color: rgb(220,0,5);
+    transition:0.25s;
+    color:white;
+}
+.completeBtn:hover{
+    background-color: green;
+    transition:0.25s;
+    color:white;
+}
+.message{
+    width: 500px;
+    height:300px;
+    background-color: white;
+    font-size: 30pt;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    opacity:0.85;
+    border-radius: 10px;
+    
+}
